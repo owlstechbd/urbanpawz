@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'apercu-regular';
+	color: #746F6D;
+
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none!important;
+}
+li{
+	list-style: none!important;
+}
+
+p{
+	font-size: 16px;
+}
+.for-mobile{
+	display: none;
+}
+.dis-flex{
+	display: flex;
+	align-items: center;
+}
+.section-padding{
+	width: 100%;
+	display: flex;
+	padding: 100px 0;
+}
+
+@font-face{
+	font-family: 'apercu-regular';
+	src:url(../font/apercu-regular.otf);
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face{
+	font-family: 'ashbury';
+	src:url(../font/ashbury.ttf);
+	font-style: normal;
+	font-weight: 900;
+}
+.logo{
+	display: flex;
+	width: 100%;
+	padding: 30px 0;
+}
+.logo img{
+	width: 300px;
+}
+.hero-content h5{
+	background: #FF9212;
+	font-size: 36px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 0 6px;
+}
+.hero-content h1{
+	font-family: 'ashbury';
+	font-weight: bolder;
+	font-size: 76px;
+	margin-bottom: 20px;
+}
+.hero-content h1 span{
+	color: #FF9212;
+	font-family: 'ashbury';
+}
+.hero-content p{
+	font-size: 24px;
+}
+.about-img img{
+	width: 100%;
+}
+.about{
+	background: #FF9212;
+	padding: 50px 0;
+	margin-top: 40px;
+}
+.about-content{
+	padding-right: 40px;
+}
+.about h2{
+	font-family: 'ashbury';
+	font-size: 48px;
+	color: #fff;
+}
+.about p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.7;
+	font-weight: 300;
+}
+.footer{
+	width: 100%;
+	position: relative;
+	padding: 30px 0;
+	background: #746F6D;
+}
+.footer-box{
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+}
+.footer h3{
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.footer-left ul{
+	display: flex;
+}
+.footer-left ul li{
+	margin-right: 25px;
+}
+.footer-right{
+	margin-left: 30px;
+}
+.footer-right ul li{
+	margin-bottom: 15px;
+}
+.footer-right ul li a{
+	z-index: 99999;
+	color: #fff;
+}
+.footer-img{
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+
+	
+}
+.footer-img img{
+	width: 100%;
+	
+}

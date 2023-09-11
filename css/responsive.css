@@ -1,0 +1,45 @@
+@media screen and (max-width: 720px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .hero-content h5{
+        font-size: 24px;
+    }
+    .hero-content h1{
+        font-size: 45px;
+    }
+    .hero-content p {
+        font-size: 20px;
+    }
+    .about{
+        padding: 40px 0;
+        margin-top: 40px;
+    }
+    .about h2 {
+        font-size: 35px;
+    }
+    .about p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .footer-box{
+        flex-direction: column;
+    }
+    .footer-right {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .footer-img img{
+        width: 100%;
+    }
+
+}
+
